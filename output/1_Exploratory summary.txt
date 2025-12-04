@@ -1,0 +1,67 @@
+********************************************************************************
+ EXPLORATION SUMMARY
+Generated: 2025-11-08 16-33-35
+********************************************************************************
+
+Dataset Overview
+Records: 32,561
+Features: 15
+Dataset Shape: (32561, 15)
+********************************************************************************
+Column Names ----
+ 1. age
+ 2. workclass
+ 3. fnlwgt
+ 4. education
+ 5. education-num
+ 6. marital-status
+ 7. occupation
+ 8. relationship
+ 9. race
+10. sex
+11. capital-gain
+12. capital-loss
+13. hours-per-week
+14. native-country
+15. income
+
+First 20 rows ---
+********************************************************************************
+    age         workclass  fnlwgt     education  education-num         marital-status         occupation   relationship                race     sex  capital-gain  capital-loss  hours-per-week native-country income
+0    39         State-gov   77516     Bachelors             13          Never-married       Adm-clerical  Not-in-family               White    Male          2174             0              40  United-States  <=50K
+1    50  Self-emp-not-inc   83311     Bachelors             13     Married-civ-spouse    Exec-managerial        Husband               White    Male             0             0              13  United-States  <=50K
+2    38           Private  215646       HS-grad              9               Divorced  Handlers-cleaners  Not-in-family               White    Male             0             0              40  United-States  <=50K
+3    53           Private  234721          11th              7     Married-civ-spouse  Handlers-cleaners        Husband               Black    Male             0             0              40  United-States  <=50K
+4    28           Private  338409     Bachelors             13     Married-civ-spouse     Prof-specialty           Wife               Black  Female             0             0              40           Cuba  <=50K
+5    37           Private  284582       Masters             14     Married-civ-spouse    Exec-managerial           Wife               White  Female             0             0              40  United-States  <=50K
+6    49           Private  160187           9th              5  Married-spouse-absent      Other-service  Not-in-family               Black  Female             0             0              16        Jamaica  <=50K
+7    52  Self-emp-not-inc  209642       HS-grad              9     Married-civ-spouse    Exec-managerial        Husband               White    Male             0             0              45  United-States   >50K
+8    31           Private   45781       Masters             14          Never-married     Prof-specialty  Not-in-family               White  Female         14084             0              50  United-States   >50K
+9    42           Private  159449     Bachelors             13     Married-civ-spouse    Exec-managerial        Husband               White    Male          5178             0              40  United-States   >50K
+10   37           Private  280464  Some-college             10     Married-civ-spouse    Exec-managerial        Husband               Black    Male             0             0              80  United-States   >50K
+11   30         State-gov  141297     Bachelors             13     Married-civ-spouse     Prof-specialty        Husband  Asian-Pac-Islander    Male             0             0              40          India   >50K
+12   23           Private  122272     Bachelors             13          Never-married       Adm-clerical      Own-child               White  Female             0             0              30  United-States  <=50K
+13   32           Private  205019    Assoc-acdm             12          Never-married              Sales  Not-in-family               Black    Male             0             0              50  United-States  <=50K
+14   40           Private  121772     Assoc-voc             11     Married-civ-spouse       Craft-repair        Husband  Asian-Pac-Islander    Male             0             0              40              ?   >50K
+15   34           Private  245487       7th-8th              4     Married-civ-spouse   Transport-moving        Husband  Amer-Indian-Eskimo    Male             0             0              45         Mexico  <=50K
+16   25  Self-emp-not-inc  176756       HS-grad              9          Never-married    Farming-fishing      Own-child               White    Male             0             0              35  United-States  <=50K
+17   32           Private  186824       HS-grad              9          Never-married  Machine-op-inspct      Unmarried               White    Male             0             0              40  United-States  <=50K
+18   38           Private   28887          11th              7     Married-civ-spouse              Sales        Husband               White    Male             0             0              50  United-States  <=50K
+19   43  Self-emp-not-inc  292175       Masters             14               Divorced    Exec-managerial      Unmarried               White  Female             0             0              45  United-States   >50K
+
+Data Types ---
+age                int64
+workclass         object
+fnlwgt             int64
+education         object
+education-num      int64
+marital-status    object
+occupation        object
+relationship      object
+race              object
+sex               object
+capital-gain       int64
+capital-loss       int64
+hours-per-week     int64
+native-country    object
+income            object
